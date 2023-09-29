@@ -1,0 +1,205 @@
+/* =======contacts========= */
+body{
+  background-color: #94a7a8;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
+  .navi {
+    background:  #333;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;  
+  }
+  .wrapper {
+  min-height: 100%;
+  position: relative;
+  margin-bottom: -100px; /* Height of the footer */
+}
+
+.content {
+margin: auto 0;
+
+}
+
+/* =======Layout========*/
+
+
+@media (max-width: 768px) {
+  
+}
+
+/* =======packages card========*/
+.cstm-height-card .card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.bookings_logo {
+  height: 50px;
+  margin: 10px;
+}
+
+/*====blog====*/
+.wrapper {
+  max-width: 1200px; 
+  margin: 0 auto;   
+  padding: 20px;    
+  background-color: rgba(255, 255, 255, 0.30); 
+  border: 1px solid #ccc;  
+  margin-left: auto;
+  margin-right: auto;
+}
+/* =======homepage carousel========*/
+
+
+
+
+
+
+
+
+
+/* packages page */
+
+/*title*/
+
+.title-container {
+  background-color: #0077b6; 
+  color: #ffffff; 
+  padding: 20px; 
+  text-align: center;
+}
+
+.title {
+  font-size: 32px; 
+  margin: 0; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+}
+
+
+.card {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.card-title-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 80%;
+  font-weight: bold;
+}
+
+/*learn more modal*/
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  overflow: auto;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.modal-close-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  background-color: #333; 
+  color: #fff; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+}
+
+
+.modal-close-button {
+  position: absolute;
+  bottom: 10px; 
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+.modal-close-button .close-button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/*book */
+.book-card {
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0.10); 
+}
+
+.mybookings-card {
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0.40); 
+  
+}
+.inclusion-height {
+  min-height: 180px;
+}
+
+/* start styles */
+
+li, ul {
+  list-style-type: none;
+  padding: 0;
+}
+main {
+  padding: 140px 40px 40px;
+  color: #bbb;
+  
+  
+}
+.content {
+  margin: auto 0;
+  
+  }
+
+
+.under {
+  z-index: 1 !important;
+  
+ 
+}
+.cate-image {
+  width: 300px;
+}
+
+.bookings_logo {
+  height: 50px;
+  margin: 10px;
+}
