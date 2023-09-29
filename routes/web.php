@@ -24,7 +24,7 @@ Route::get('/', function () {return view('welcome'); })->name('welcome');
 Route::get('/contact', function () {return view('contact'); });
 
 Route::get('/packagesview', [Controller::class, 'indexpublic'])->name('packages');
-Route::get('/blogs', [Controller::class, 'blogspublic'])->name('publicblog');
+Route::get('/blogs', [Controller::class, 'blogspublic'])->name('blogpost');
 
 
 

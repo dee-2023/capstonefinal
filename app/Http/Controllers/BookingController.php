@@ -44,6 +44,11 @@ class BookingController extends Controller
     }
 
   public function store(Request $request) {
+    $user = auth()->user();
+        $request->validate([
+            'package_id' => 'required',
+            'booking_date' => 'required',            
+        ]);
     
     $user = auth()->user();
        

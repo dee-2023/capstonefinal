@@ -48,7 +48,7 @@
                             <a class="nav-link" href="{{ route('packages') }}">{{ __('Packages') }}</a>
                         </li>
                         <li class="nav-item h5">
-                            <a class="nav-link" href="{{ url('blogs') }}">{{ __('Blogs') }}</a>
+                            <a class="nav-link" href="{{ route('blogpost') }}">{{ __('Blogs') }}</a>
                         </li>
                         <li class="nav-item h5">
                             <a class="nav-link" href="{{ url('contact') }}">{{ __('Contact') }}</a>
